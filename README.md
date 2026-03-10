@@ -6,7 +6,7 @@
 
 ## Overview
 
-This repository contains Team PlanQtons' submission for the Q-volution Hackathon. Our challenge was to implement a functional quantum algorithm capable of solving a classical Linear Differential Equation (LDE), specifically the harmonic oscillator over a time period of t = [0,1]. Additionally, we analyzed how resource-efficient our implementation was by comparing circuit depth and width under different optimization settings. The Jupyter notebook takes you through the evolution of our project execution, but the final approach was to approximate the exponential solution to the harmonic oscillator using Taylor series expansion, which ended up requiring just one ancilla qubit. 
+This repository contains Team PlanQtons' submission for the Q-volution Hackathon. Our challenge was to implement a functional quantum algorithm capable of solving a classical Linear Differential Equation (LDE), specifically the harmonic oscillator over a time period of t = [0,1]. Additionally, we analyzed how resource-efficient our implementation was by comparing circuit depth and width under different optimization settings. The Jupyter notebook takes you through the evolution of our project execution, but the final approach was to approximate the exponential solution to the harmonic oscillator using a Taylor series expansion, which ended up requiring just one ancilla qubit. 
 
 ---
 
